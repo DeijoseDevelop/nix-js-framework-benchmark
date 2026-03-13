@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Nix.js Benchmarks - Rendimiento Real-time del Micro-framework JS</title>
+    <meta name="title" content="Nix.js Benchmarks - Rendimiento Real-time del Micro-framework JS">
+    <meta name="description" content="Nix.js es un micro-framework JavaScript de ultra-bajo peso (~10KB) con reactividad nativa. Comprueba su rendimiento en tiempo real con este benchmark interactivo.">
+    <meta name="keywords" content="Nix.js, javascript framework, micro-framework, performance, benchmarks, reactive signals, web performance">
+    <meta name="author" content="@deijose">
+    <link rel="canonical" href="https://nixjs.dev/benchmarks">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nixjs.dev/">
+    <meta property="og:title" content="Nix.js Benchmarks - Micro-framework JS Ultra-rápido">
+    <meta property="og:description" content="Reactividad nativa, cero dependencias y un peso insignificante. Mira cómo vuela Nix.js en estos tests de rendimiento.">
+    <meta property="og:image" content="./nix_js_hero_bg.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nixjs.dev/">
+    <meta property="twitter:title" content="Nix.js Benchmarks - Micro-framework JS Ultra-rápido">
+    <meta property="twitter:description" content="Reactividad nativa, cero dependencias y un peso insignificante. Mira cómo vuela Nix.js en estos tests de rendimiento.">
+    <meta property="twitter:image" content="./nix_js_hero_bg.png">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/ico/favicon-16x16.png">
+    <link rel="manifest" href="./images/ico/manifest.json">
+    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./index.css">
+
+    <script type="importmap">
+        {
+            "imports": {
+                "@deijose/nix-js": "https://cdn.jsdelivr.net/npm/@deijose/nix-js@1.7.1/+esm"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="landing-wrapper">
+        <nav>
+            <a href="#" class="logo">
+                <img src="./images/ico/apple-icon-60x60.png" alt="Nix.js Logo" style="height: 32px; width: 32px; margin-right: 10px;">
+                Nix.js
+            </a>
+            <div class="nav-links">
+                <a href="https://github.com/DeijoseDevelop/nix-js" target="_blank">GitHub</a>
+                <a href="#benchmarks">Benchmarks</a>
+                <a href="https://github.com/DeijoseDevelop/nix-js" target="_blank">Docs</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <span class="badge">v1.7.1 lanzada</span>
+                <h1>Elegante. Ligero. Nix.js</h1>
+                <p>El micro-framework para la web moderna. Enfocado en la simplicidad y el rendimiento extremo, sin la sobrecarga de los frameworks tradicionales.</p>
+            </div>
+        </header>
+
+        <main>
+            <section id="benchmarks" class="benchmark-section">
+                <div class="benchmark-container">
+                    <div id="app"></div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <h3><img src="./images/ico/favicon-32x32.png" alt="" style="height: 24px; vertical-align: middle; margin-right: 8px;">Ultra Ligero</h3>
+                    <p>Menos de 10KB gzipped. Nix.js no añade peso innecesario a tu aplicación, cargando instantáneamente en cualquier conexión.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Reactividad Nativa</h3>
+                    <p>Basado en Signals para una gestión de estado eficiente. Solo se actualiza lo que realmente cambia en el DOM.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🛠️ Sin Build Steps</h3>
+                    <p>Úsalo directamente en el navegador con ES Modules. Sin necesidad de Webpack, Vite o compiladores complejos.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Nix.js - Creado con ❤️ por Deiver Vasquez (DeijoseDevelop). Licencia MIT.</p>
+        </footer>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

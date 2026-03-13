@@ -1,0 +1,12 @@
+{
+  "name": "nix-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "dependencies": {
+    "@deijose/nix-js": "1.7.1",
+    "install": "^0.13.0"
+  }
+}
