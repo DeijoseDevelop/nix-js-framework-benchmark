@@ -5,13 +5,13 @@
     "": {
       "name": "nix-app",
       "dependencies": {
-        "@deijose/nix-js": "1.7.1",
+        "@deijose/nix-js": "1.7.1-beta.0",
         "install": "^0.13.0",
       },
     },
   },
   "packages": {
-    "@deijose/nix-js": ["@deijose/nix-js@1.7.1", "", {}, "sha512-Zyxs0ahdNYU71s4DxcFvEOYc2fcwYvpzhAfwV63QTWGmU4YeXSHEjrhX243c+MOzYvLTds34vJaE6Nheq2B5Lg=="],
+    "@deijose/nix-js": ["@deijose/nix-js@1.7.1-beta.0", "", {}, "sha512-Lk4QK4oENfMyskVOZRlHGzuCqA3AtTZ/O4Q9eJUN5OBgJN5HGc8pEOtosm3gzOm5nHfAHhkXkEOHexA8HWyYPw=="],
 
     "install": ["install@0.13.0", "", {}, "sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA=="],
   }
