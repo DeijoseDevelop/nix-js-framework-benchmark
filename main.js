@@ -270,6 +270,9 @@ function App() {
     <div class="benchmark-app">
         <h2>🏆 Rendimiento de Nix.js</h2>
         <p class="subtitle">Midiendo la velocidad de ejecución en operaciones del DOM con 1,000 registros.</p>
+        <p style="font-size: 0.8rem; color: var(--danger); margin-bottom: 2rem; background: rgba(255, 59, 48, 0.05); padding: 8px 12px; border-radius: 8px; display: inline-block;">
+            💡 <strong>Nota:</strong> Para obtener resultados reales, ejecuta este benchmark en una ventana de <strong>incógnito</strong> (sin extensiones que afecten el rendimiento).
+        </p>
 
 
         <!-- Mode Toggle -->
