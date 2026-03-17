@@ -5,14 +5,23 @@
     "": {
       "name": "nix-app",
       "dependencies": {
-        "@deijose/nix-js": "1.7.5",
+        "@deijose/nix-js": "1.7.7",
         "install": "^0.13.0",
       },
     },
   },
   "packages": {
-    "@deijose/nix-js": ["@deijose/nix-js@1.7.5", "", {}, "sha512-1/oGGoVSR0XWv1gZFoeX0eelBhuyaD0UOz7B9Ze0O29rs3fKG50jIRVA5TFwtTe+j3p4odsubyHbGwFV7D04SQ=="],
-
-    "install": ["install@0.13.0", "", {}, "sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA=="],
+    "@deijose/nix-js": [
+      "@deijose/nix-js@1.7.7",
+      "",
+      {},
+      "sha512-PqUuSDvw+0i53QhskeDrLj6owOOsNb80s2rJLjEdRHGaTEIeBPC2k5b67kMaTIrOfJXN3ikGgCvBKQ5/BtNcow=="
+    ],
+    "install": [
+      "install@0.13.0",
+      "",
+      {},
+      "sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA=="
+    ],
   }
 }
