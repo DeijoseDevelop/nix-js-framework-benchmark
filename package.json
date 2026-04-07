@@ -6,7 +6,7 @@
     "dev": "npx serve ."
   },
   "dependencies": {
-    "@deijose/nix-js": "1.7.9",
+    "@deijose/nix-js": "1.8.1",
     "install": "^0.13.0"
   }
 }
