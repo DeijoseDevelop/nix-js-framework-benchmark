@@ -1,6 +1,6 @@
 # 🏆 Nix.js Framework Benchmark
 
-[![Version](https://img.shields.io/badge/version-1.9.0-blue.svg)](https://www.npmjs.com/package/@deijose/nix-js)
+[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://www.npmjs.com/package/@deijose/nix-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Una aplicación interactiva para medir y visualizar el rendimiento de **Nix.js**, el micro-framework JavaScript ultra-ligero enfocado en reactividad nativa y simplicidad extrema.
