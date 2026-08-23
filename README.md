@@ -7,7 +7,7 @@ Una aplicación interactiva para medir y visualizar el rendimiento de **Nix.js**
 
 ## ❄️ ¿Qué es Nix.js?
 
-Nix.js es un micro-framework de ultra-bajo peso (~14KB gzipped) diseñado para desarrolladores que buscan:
+Nix.js es un micro-framework de ultra-bajo peso (~15 KB gzipped) diseñado para desarrolladores que buscan:
 - **Cero dependencias**: Sin sobrecarga innecesaria.
 - **Reactividad Nativa**: Basado en el sistema de *Signals*.
 - **Sin Build Steps**: Compatible directamente con ES Modules en el navegador.
